@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">zSWXBd59wTYcvlhTHVpsPHZXiHLH7xbZ</property>
+    <property name="acs-oauth-key-production" type="string">GFzv4N6CKmC6glkdLfS9HYEgiwJnBLX4</property>
+    <property name="acs-api-key-production" type="string">6D7Fe6sA2z9YzzxH7ldfLQrqohUyn5ck</property>
+    <property name="acs-oauth-secret-development" type="string">OFpqJ2VvYCEbmmDyXgmWFWFaxS19qF5I</property>
+    <property name="acs-oauth-key-development" type="string">ErbAubOKdjL4RkYK09V3Ut7hqRoxH0HK</property>
+    <property name="acs-api-key-development" type="string">GXzAQkP34NyVqVGdp5nHPFauXFoFS2ml</property>
+    <deployment-targets>
+        <target device="mobileweb">true</target>
+        <target device="iphone">true</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.3.GA</sdk-version>
+    <id>com.sourcebits.tipinpoint</id>
+    <name>TiPinPoint</name>
+    <version>1.0</version>
+    <publisher>rajeevnb</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2012 by rajeevnb</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>cc5c24db-5098-4a61-9e50-755a68782562</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.3.0">ti.cloud</module>
+    </modules>
+</ti:app>
